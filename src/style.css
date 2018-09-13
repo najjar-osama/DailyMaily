@@ -378,7 +378,6 @@ html, body {
 .mainview-wrapper {
   height: 100vh;
   overflow: hidden;
-  background: gray;
   flex: 3; }
 
 .container {
@@ -397,4 +396,20 @@ html, body {
   overflow-y: auto; }
 
 .sidebar-footer {
+  flex: 1; }
+
+.main-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.main-view-top {
+  flex: 1;
+  transition: height .2s ease-in-out; }
+
+.main-view-center {
+  flex: 5;
+  overflow-y: auto; }
+
+.main-view-bottom {
   flex: 1; }

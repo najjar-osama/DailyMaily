@@ -1,0 +1,19 @@
+.main-view{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main-view-top{
+    flex: 1;
+    transition: height .2s ease-in-out;
+}
+
+.main-view-center{
+    flex: 5;
+    overflow-y: auto;
+}
+
+.main-view-bottom{
+    flex : 1;
+}
