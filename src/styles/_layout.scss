@@ -1,0 +1,14 @@
+@mixin scrollContainer{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.layout-wrapper{
+    
+}
+.sidebar-wrapper{
+    @include scrollContainer;
+}
+.mainview-wrapper{
+    @include scrollContainer;
+}
