@@ -8,7 +8,16 @@
 }
 .sidebar-wrapper{
     @include scrollContainer;
+    background: orange;
+    display: none;
+    flex: 1;
+    @media screen and (min-width : $laptop){
+        display: block;
+    }
+    
 }
 .mainview-wrapper{
     @include scrollContainer;
+    background: gray;
+    flex: 3;
 }

@@ -368,8 +368,16 @@ html, body {
 
 .sidebar-wrapper {
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  background: orange;
+  display: none;
+  flex: 1; }
+  @media screen and (min-width: 1024px) {
+    .sidebar-wrapper {
+      display: block; } }
 
 .mainview-wrapper {
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  background: gray;
+  flex: 3; }
