@@ -369,7 +369,6 @@ html, body {
 .sidebar-wrapper {
   height: 100vh;
   overflow: hidden;
-  background: orange;
   display: none;
   flex: 1; }
   @media screen and (min-width: 1024px) {
@@ -381,3 +380,21 @@ html, body {
   overflow: hidden;
   background: gray;
   flex: 3; }
+
+.container {
+  margin: 0 5%; }
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 100%; }
+
+.sidebar-header {
+  flex: 1; }
+
+.sidebar-body {
+  flex: 2;
+  overflow-y: auto; }
+
+.sidebar-footer {
+  flex: 1; }

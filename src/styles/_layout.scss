@@ -8,7 +8,6 @@
 }
 .sidebar-wrapper{
     @include scrollContainer;
-    background: orange;
     display: none;
     flex: 1;
     @media screen and (min-width : $laptop){
@@ -20,4 +19,7 @@
     @include scrollContainer;
     background: gray;
     flex: 3;
+}
+.container {
+    margin: 0 5%;
 }
