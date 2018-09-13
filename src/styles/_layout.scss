@@ -4,7 +4,7 @@
 }
 
 .layout-wrapper{
-    
+    display: flex;
 }
 .sidebar-wrapper{
     @include scrollContainer;
