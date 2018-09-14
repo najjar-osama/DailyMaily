@@ -2,16 +2,23 @@ import React from "react";
 import Sidebar from "./Sidebar";
 import MainView from "./MainView";
 
+class Layout extends React.Component {
 
-const Layout = ()=>(
-    <div className="layout-wrapper">
+  constructor(props){
+      super(props);
+  }
+  render() {
+    return (
+      <div className="layout-wrapper">
         <div className="sidebar-wrapper">
-            <Sidebar />
+          <Sidebar />
         </div>
         <div className="mainview-wrapper">
-            <MainView />
+          <MainView/>
         </div>
-    </div>
-);
+      </div>
+    );
+  }
+}
 
 export default Layout;

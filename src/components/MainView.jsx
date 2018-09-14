@@ -1,10 +1,9 @@
 import React from "react";
 
 
-const MainView  = ()=>(
+const MainView  = (props)=>(
     <div className="main-view">
         <div className="main-view-top">
-
         </div>
         <div className="main-view-center">
             

@@ -368,16 +368,20 @@ html, body {
 
 .sidebar-wrapper {
   height: 100vh;
-  overflow: hidden;
-  display: none;
-  flex: 1; }
+  overflow-y: hidden;
+  flex: 0;
+  transition: all .5s ease-in-out;
+  background: red; }
   @media screen and (min-width: 1024px) {
     .sidebar-wrapper {
-      display: block; } }
+      flex: 1; } }
+
+.toggle-btn {
+  float: right; }
 
 .mainview-wrapper {
   height: 100vh;
-  overflow: hidden;
+  overflow-y: hidden;
   flex: 3; }
 
 .container {
